@@ -32,6 +32,8 @@ export default function HeroSection() {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      sdfsdfsd
     </section>
   );
 }
