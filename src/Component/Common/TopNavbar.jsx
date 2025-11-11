@@ -6,16 +6,12 @@ import animationIcon from "../../assets/lottiefiles/Animation - 1750765404910.js
 import SearchBar from "./SearchBar";
 import { Link } from "react-router";
 
-
-
 export default function TopNavbar() {
   return (
     <header
-      className="
-      fixed inset-x-0 pb-3 top-0 z-50 bg-white
-    "
+      className="z-50 bg-white"
     >
-      <div className="container border-b border-gray-100 mx-auto px-4">
+      <div className="container  border-b border-gray-100 mx-auto px-4">
         {/* 1-line strip — never wraps */}
 
         <div
@@ -35,7 +31,7 @@ export default function TopNavbar() {
               src={animationIcon}
               background="transparent"
               speed="0.5"
-              style={{ width: "25px", }}
+              style={{ width: "25px" }}
               loop
               autoplay
             />
@@ -46,8 +42,6 @@ export default function TopNavbar() {
             >
               01876258020
             </a>
-
-
           </div>
 
           {/* Social Icons */}
@@ -78,11 +72,11 @@ export default function TopNavbar() {
             </a>
           </div>
 
-
           <div>
-            <Link to={'/user-order'} className="text-[var(--primaryColor)]">My Order</Link>
+            <Link to={"/user-order"} className="text-[var(--primaryColor)]">
+              My Order
+            </Link>
           </div>
-
         </div>
       </div>
 

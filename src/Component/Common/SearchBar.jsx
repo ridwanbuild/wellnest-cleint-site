@@ -20,8 +20,8 @@ export default function SearchBar() {
   console.log(isFocus);
 
   return (
-    <div className="container px-3 m-auto">
-      <div className="flex items-center mt-2 border pl-4 gap-2 bg-white border-gray-500/30 lg:h-[50px] h-[41px]  overflow-hidden w-full">
+    <div className="container  px-3 m-auto">
+      <div className="flex rounded-full items-center mt-2 border pl-4 gap-2 bg-white border-gray-500/30 lg:h-[50px] h-[41px]  overflow-hidden w-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30"

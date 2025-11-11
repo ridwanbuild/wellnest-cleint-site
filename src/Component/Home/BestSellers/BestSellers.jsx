@@ -39,7 +39,7 @@ export default function BestSellers() {
       ) : (
         <>
 
-          <div className="grid grid-cols-2 gap-4 lg:grid-cols-5">
+          <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
             {topTenProduct.map((item) => (
               <Best_Sellers_Card key={item._id} card={item} />
             ))}

@@ -34,8 +34,8 @@ export default function Navbar() {
   };
 
   return (
-    <header className=" hidden lg:block py-2">
-      <nav className="container mt-30 lg:bg-transparent rounded-t py-2 bg-[var(--primaryColor)] px-3 relative m-auto text-gray-900 lg:py-2 flex justify-between items-center">
+    <header className=" lg:block py-5">
+      <nav className="container  lg:bg-transparent rounded-t py-2 bg-[var(--primaryColor)] px-3 relative m-auto text-gray-900 lg:py-2 flex justify-between items-center">
         {/* Logo */}
 
         <div className="lg:text-2xl text-[23px] pe-2 font-bold font-script ">

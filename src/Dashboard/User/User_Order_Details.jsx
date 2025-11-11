@@ -31,7 +31,7 @@ export default function User_Order_Details() {
   
 
   return (
-    <div className="border p-4">
+    <div className="border rounded-md border-gray-300 p-4">
       {/* Back Button */}
       <Link
         to="/cart"
@@ -45,7 +45,7 @@ export default function User_Order_Details() {
         <h2 className="text-xl font-semibold mb-3">Order Details</h2>
 
         {!userData ? (
-          <p className="text-gray-500"> Loading Order data ... </p>
+          <p className="text-gray-500"> Please Selected Your Product </p>
         ) : (
           <>
             <ul className="divide-y">
