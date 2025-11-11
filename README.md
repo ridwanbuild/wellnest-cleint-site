@@ -7,7 +7,7 @@
 ## 🔗 Live Review
 
 Check out the live version of Wellnest here:  
-➡️ [Wellnest Live Demo](https://wellnestridwan.netlify.app)
+➡️ [Wellnest Live Demo](https://wellnest-e-commerce-01.web.app)
 
 ---
 
