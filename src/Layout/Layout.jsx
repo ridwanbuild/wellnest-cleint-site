@@ -32,7 +32,7 @@ export default function Layout() {
         {/* <SearchBar></SearchBar> */}
 
         {/* Outlet for nested routes */}
-        <div className="lg:mt-0 mt-28">
+        <div className="lg:mt-0 ">
           <Outlet />
         </div>
 

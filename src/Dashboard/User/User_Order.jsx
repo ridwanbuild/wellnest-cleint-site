@@ -6,21 +6,22 @@ import { useNavigate } from 'react-router';
 import toast from 'react-hot-toast';
 
 export default function User_Order() {
-  const { user, navigate } = useContext(AuthContext);
-  const { isAdmin, adminLoading } = useAdmin();
+
+  // const { user, navigate } = useContext(AuthContext);
+  // const { isAdmin, adminLoading } = useAdmin();
  
 
-  useEffect(() => {
-    if (!adminLoading) {
-      if (!user) {
-        toast.error("⚠️ Please log in to view your orders.");
-        navigate("/login");
-      } else if (!isAdmin) {
-        toast.error("🚫 Access denied. Only registered users can view this section.");
-        navigate("/register");
-      }
-    }
-  }, [user, isAdmin, adminLoading, navigate]);
+  // useEffect(() => {
+  //   if (!adminLoading) {
+  //     if (!user) {
+  //       toast.error("⚠️ Please log in to view your orders.");
+  //       navigate("/login");
+  //     } else if (!isAdmin) {
+  //       toast.error("🚫 Access denied. Only registered users can view this section.");
+  //       navigate("/register");
+  //     }
+  //   }
+  // }, [user, isAdmin, adminLoading, navigate]);
 
 
   return (

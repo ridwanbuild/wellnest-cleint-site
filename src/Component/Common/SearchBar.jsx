@@ -52,7 +52,7 @@ export default function SearchBar() {
       {/* Live Filtered Results */}
 
       {(isFocus || search) && (
-        <div className="bg-slate-100/40 border-b-1 h-62 border-gray-500  py-5 rounded  p-1  overflow-y-auto">
+        <div className="bg-white shadow-xl  h-62  py-5 rounded  p-1  overflow-y-auto">
           {filteredItems.length > 0 ? (
             filteredItems.map((item, index) => (
 

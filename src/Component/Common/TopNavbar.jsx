@@ -11,8 +11,8 @@ export default function TopNavbar() {
     <header
       className="z-50 bg-white"
     >
-      <div className="container  border-b border-gray-100 mx-auto px-4">
-        {/* 1-line strip — never wraps */}
+      {/* <div className="container  border-b border-gray-100 mx-auto px-4">
+       
 
         <div
           className="
@@ -23,9 +23,9 @@ export default function TopNavbar() {
           py-2
         "
         >
-          {/* Call Section */}
+         
           <div className="flex text-lg items-center gap-1 sm:gap-2 shrink-0">
-            {/* Hide the label on very tiny screens to save space */}
+           
 
             <lottie-player
               src={animationIcon}
@@ -44,7 +44,7 @@ export default function TopNavbar() {
             </a>
           </div>
 
-          {/* Social Icons */}
+         
           <div className="flex items-center gap-3 text-lg shrink-0">
             <a
               href="https://wa.me/1876258020"
@@ -78,10 +78,12 @@ export default function TopNavbar() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <Navbar></Navbar> */}
       <SearchBar></SearchBar>
+
+      
     </header>
   );
 }
